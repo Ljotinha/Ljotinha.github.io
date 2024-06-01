@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .about,
+        .blog-posts,
+        .videos,
+        .contact,
+        .comments {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #d32f2f;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-links a {
+            color: #d32f2f;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #1976d2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Blog Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#blog-posts">Blog</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#contact">Contato</a>
+        <a href="#comments">Comentários</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou Luis Henrique, criador de conteúdo no YouTube. Aqui no meu blog, compartilho minha jornada e experiências na criação de vídeos, dicas para quem quer começar e muito mais. Obrigado por visitar!</p>
+        </section>
+        <section id="blog-posts" class="blog-posts">
+            <h2>Blog</h2>
+            <article>
+                <h3>Meu Primeiro Post</h3>
+                <p>Bem-vindo ao meu blog! Neste primeiro post, vou compartilhar como comecei minha jornada no YouTube...</p>
+            </article>
+            <!-- Adicione mais posts aqui -->
+        </section>
+        <section id="videos" class="videos">
+            <h2>Vídeos</h2>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/seu_video_aqui" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CePHTdRmMOM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XBOL0hiDLVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Você pode me encontrar nas redes sociais:</p>
+            <div class="social-links">
+                <a href="https://twitter.com/seu_perfil" target="_blank">Twitter</a>
+                <a href="https://facebook.com/seu_perfil" target="_blank">Facebook</a>
+                <a href="https://instagram.com/seu_perfil" target="_blank">Instagram</a>
+            </div>
+        </section>
+        <section id="comments" class="comments">
+            <h2>Comentários</h2>
+            <p>Deixe seu comentário abaixo:</p>
+            <form>
+                <textarea rows="4" cols="50" placeholder="Escreva seu comentário aqui..."></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Meu Blog Pessoal. Todos os direitos reservados.</p>
+    </footer>
+    <p>Agradecimentos especiais ao Rcz play pela edição dos vídeos.</p>
+</body>
+</html>
